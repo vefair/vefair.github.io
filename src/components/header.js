@@ -5,13 +5,13 @@ import "./header.css"
 
 const Header = (props) => (
     <nav className="nav">
-      <h1 className="nav-title"><span>Alpont Vefair</span></h1>
+      <h1 className="nav-title"><Link to="/">Alpont Vefair</Link></h1>
       <ul className="nav-items">
-        <li className="nav-item"><span>Profile</span></li>
-        <li className="nav-item"><span>Background</span></li>
-        <li className="nav-item"><span>Visualosities</span></li>
-        <li className="nav-item"><span>Contacts</span></li>
-        <li className="nav-item"><span>OOC</span></li>
+        <li className="nav-item"><a>Profile</a></li>
+        <li className="nav-item"><a>Background</a></li>
+        <li className="nav-item"><a>Visualosities</a></li>
+        <li className="nav-item"><a>Contacts</a></li>
+        <li className="nav-item"><a>OOC</a></li>
       </ul>
     </nav>
 )
