@@ -1,0 +1,19 @@
+.index-paragraph {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 30%;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  left: 190px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media only screen and (max-width: 800px) {
+  .index-paragraph {
+    font-size: 1.5rem;
+    width: initial;
+    left: 0;
+    position: initial;
+  }
+}
